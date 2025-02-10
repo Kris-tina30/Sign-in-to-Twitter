@@ -51,11 +51,11 @@ h1 {
 }
 button {
   border-radius: 14px;
-
   padding: 8px;
   background-color: #fff;
-  border: 1px solid gray;
+  border: 1px solid rgb(206, 201, 201);
   margin-bottom: 22px;
+  font-size: 14px;
 }
 .button-x {
   width: 30px;
@@ -63,7 +63,7 @@ button {
   margin-bottom: 0;
 }
 .sign-in-icon {
-  width: 22px;
+  width: 28px;
 }
 .sign-in-button {
   width: 260px;
@@ -95,23 +95,25 @@ input {
   width: 240px;
   margin-bottom: 25px;
   padding: 15px 5px;
-  border: 1px solid #000;
+  border: 1px solid rgb(206, 201, 201);
 }
 
 .sign-up-button {
   border: none;
   margin: 0;
+  padding-left: 0;
 }
 .wrap-sign-up {
   display: flex;
   align-items: center;
   margin-left: 95px;
+  margin-top: 25px;
 }
 .break {
   margin-bottom: 22px;
   width: 260px;
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgb(206, 201, 201);
   line-height: 0.1em;
 }
 ::placeholder {
