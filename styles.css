@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+h1 {
+  margin-bottom: 26px;
+}
+.body-container {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 8px;
+  background-color: #d3d3d3;
+}
+
+.container {
+  width: 480px;
+  height: 600px;
+  padding: 5px 16px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.twitter-icon {
+  width: 45px;
+  /* margin-bottom: 20px; */
+  margin: 0 auto;
+}
+button {
+  border-radius: 14px;
+  width: 260px;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid gray;
+  margin-bottom: 22px;
+}
+.button-x {
+  width: 30px;
+  border: none;
+  margin-bottom: 0;
+}
+.sign-in-icon {
+  width: 22px;
+}
+.sign-in-button {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+}
+.next-button {
+  background-color: black;
+  color: white;
+}
+.password-button {
+  font-weight: bold;
+}
+.button-apple {
+  font-weight: bold;
+}
+.wrap {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 30px;
+}
