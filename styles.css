@@ -35,7 +35,7 @@ h1 {
   height: 600px;
   padding: 5px 16px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #fff;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -46,15 +46,14 @@ h1 {
   align-items: center;
 }
 .twitter-icon {
-  width: 45px;
-
+  width: 55px;
   margin: 0 auto;
 }
 button {
   border-radius: 14px;
 
   padding: 8px;
-  background-color: white;
+  background-color: #fff;
   border: 1px solid gray;
   margin-bottom: 22px;
 }
@@ -75,8 +74,8 @@ button {
 }
 .next-button {
   width: 260px;
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
 }
 .password-button {
   width: 260px;
@@ -96,7 +95,7 @@ input {
   width: 240px;
   margin-bottom: 25px;
   padding: 15px 5px;
-  border: 1px solid black;
+  border: 1px solid #000;
 }
 
 .sign-up-button {
@@ -110,9 +109,17 @@ input {
 }
 .break {
   margin-bottom: 22px;
+  width: 260px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
 }
 ::placeholder {
   font-size: 13px;
 
   color: #696969;
+}
+.break span {
+  background: #fff;
+  padding: 0 10px;
 }
