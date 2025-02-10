@@ -8,6 +8,9 @@
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 
 li {
   list-style: none;
@@ -36,16 +39,20 @@ h1 {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+}
+.wrap-sign-in {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .twitter-icon {
   width: 45px;
-  /* margin-bottom: 20px; */
+
   margin: 0 auto;
 }
 button {
   border-radius: 14px;
-  width: 260px;
+
   padding: 8px;
   background-color: white;
   border: 1px solid gray;
@@ -60,19 +67,23 @@ button {
   width: 22px;
 }
 .sign-in-button {
+  width: 260px;
   display: flex;
   gap: 3px;
   align-items: center;
   justify-content: center;
 }
 .next-button {
+  width: 260px;
   background-color: black;
   color: white;
 }
 .password-button {
+  width: 260px;
   font-weight: bold;
 }
 .button-apple {
+  width: 260px;
   font-weight: bold;
 }
 .wrap {
@@ -80,4 +91,28 @@ button {
   gap: 15px;
   align-items: center;
   margin-bottom: 30px;
+}
+input {
+  width: 240px;
+  margin-bottom: 25px;
+  padding: 15px 5px;
+  border: 1px solid black;
+}
+
+.sign-up-button {
+  border: none;
+  margin: 0;
+}
+.wrap-sign-up {
+  display: flex;
+  align-items: center;
+  margin-left: 95px;
+}
+.break {
+  margin-bottom: 22px;
+}
+::placeholder {
+  font-size: 13px;
+
+  color: #696969;
 }
